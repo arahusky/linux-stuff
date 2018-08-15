@@ -40,6 +40,7 @@ git submodule update --recursive --remote
 
 # copy vim config
 ln -srfv _vimrc ~/.vimrc
+ln -srfv .vim/ ~/.vim/
 
 # copy tmux config
 ln -srfv _tmux.conf ~/.tmux.conf
